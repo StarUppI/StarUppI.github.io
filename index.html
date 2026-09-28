@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kyungeun Kim | Samsung Display</title>
+<meta name="description" content="Academic homepage of Kyungeun Kim, researcher at Samsung Display.">
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--ink:#171717;--muted:#67635d;--line:#e7e3dd;--soft:#f1eee8;--max:1040px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:inherit}
+.wrap{width:min(calc(100% - 40px),var(--max));margin:auto}.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.top{position:sticky;top:0;z-index:5;background:rgba(250,249,247,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.brand{font-weight:750;letter-spacing:-.025em;text-decoration:none}.navlinks{display:flex;gap:22px;font-size:14px;color:#555}.navlinks a{text-decoration:none}
+.hero{padding:88px 0 82px;display:grid;grid-template-columns:1.5fr .7fr;gap:56px;align-items:center}.kicker{margin:0 0 13px;font-size:12px;font-weight:750;letter-spacing:.14em;text-transform:uppercase;color:#777}.hero h1{font-size:clamp(52px,8vw,88px);line-height:.95;letter-spacing:-.07em;margin:0 0 26px}.lead{font-size:20px;max-width:700px;color:#4f4b45;margin:0}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.btn{padding:10px 16px;border-radius:999px;border:1px solid #d4d0c9;background:#fff;text-decoration:none;font-size:14px;font-weight:700}.btn.dark{background:#171717;border-color:#171717;color:#fff}
+.profile{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:26px}.initials{width:82px;height:82px;border-radius:50%;display:grid;place-items:center;background:#dedbd4;font-size:23px;font-weight:800;margin-bottom:18px}.profile strong{display:block;font-size:19px}.profile span{display:block;color:var(--muted);font-size:14px}
+section{padding:78px 0;border-top:1px solid var(--line)}section.soft{background:var(--soft)}h2{font-size:38px;line-height:1.08;letter-spacing:-.045em;margin:0 0 28px}h3{font-size:19px;line-height:1.35;margin:0 0 10px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:var(--surface);border:1px solid var(--line);border-radius:17px;padding:23px}.card p{margin:0;color:var(--muted);font-size:15px}
+.paper{display:grid;grid-template-columns:76px 1fr;gap:24px;padding:28px 0;border-top:1px solid #d8d3cb}.year{font-weight:750;color:#777}.meta{margin:6px 0 0;color:#555;font-size:14px;font-weight:750}.paper p{margin:10px 0 0;color:var(--muted)}.paper a{display:inline-block;margin-top:13px;font-weight:700;text-underline-offset:3px}
+.about{max-width:760px}.about p{color:#57534d}.contact{display:flex;justify-content:space-between;align-items:end;gap:30px}.email{font-weight:750;text-decoration:underline;text-underline-offset:3px}footer{padding:27px 0 36px;color:#777;font-size:13px}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:58px}.grid{grid-template-columns:1fr}.navlinks{display:none}.contact{display:block}.email{display:inline-block;margin-top:18px}.paper{grid-template-columns:1fr;gap:4px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap nav"><a class="brand" href="#top">Kyungeun Kim</a><nav class="navlinks"><a href="#research">Research</a><a href="#publications">Publication</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
+
+<main id="top">
+<section style="border-top:0"><div class="wrap hero">
+<div><p class="kicker">Machine Learning · Computer Vision · Industrial AI</p><h1>Kyungeun Kim</h1><p class="lead">Researcher at Samsung Display working on machine learning for reliable visual inspection, defect detection, data refinement, and selective classification.</p><div class="buttons"><a class="btn dark" href="#publications">View publication</a><a class="btn" href="mailto:x.ssttoc@gmail.com">Email</a><a class="btn" href="https://github.com/StarUppI" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
+<aside class="profile"><div class="initials">KK</div><strong>Kyungeun Kim</strong><span>Samsung Display</span><span>Republic of Korea</span></aside>
+</div></section>
+
+<section id="research"><div class="wrap"><p class="kicker">Research</p><h2>Reliable machine learning for visual inspection</h2><div class="grid">
+<article class="card"><h3>Defect Detection</h3><p>Learning-based methods for identifying and characterizing manufacturing defects from visual inspection data.</p></article>
+<article class="card"><h3>Data Refinement</h3><p>Clustering and data-centric strategies for improving the quality and consistency of training data.</p></article>
+<article class="card"><h3>Selective Classification</h3><p>Uncertainty-aware prediction systems that can defer difficult cases instead of forcing low-confidence decisions.</p></article>
+</div></div></section>
+
+<section id="publications" class="soft"><div class="wrap"><p class="kicker">Publication</p><h2>Selected work</h2><article class="paper"><div class="year">2026</div><div><h3>A Multi-Stage Defect Detection Framework Using Clustering-Based Data Refinement and Selective Classification</h3><div class="meta">IMID 2026 · Conference Paper · Poster Presentation</div><p>A multi-stage defect detection framework combining clustering-based data refinement with selective classification for more reliable automated inspection.</p><a href="https://www.imid.or.kr/2026/" target="_blank" rel="noreferrer">IMID 2026 ↗</a></div></article></div></section>
+
+<section id="about"><div class="wrap about"><p class="kicker">About</p><h2>About me</h2><p>I am a researcher at Samsung Display interested in applying machine learning to practical inspection problems. My interests include machine learning, computer vision, industrial defect detection, data-centric AI, clustering, and selective classification.</p></div></section>
+
+<section id="contact" class="soft"><div class="wrap contact"><div><p class="kicker">Contact</p><h2>Let’s connect</h2><p style="color:#666;margin:0">For research questions or collaboration.</p></div><a class="email" href="mailto:x.ssttoc@gmail.com">x.ssttoc@gmail.com</a></div></section>
+</main>
+<footer><div class="wrap">© 2026 Kyungeun Kim</div></footer>
+</body>
+</html>
